@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(161, 160, 160);
+}
+
+/*Header y Menú*/
+
+header {
+    background-color: #263238;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    box-shadow: 0em 0.3em #257b36;
+}
+
+.relleno1 {
+    padding-top: 7em;
+}
+
+.container {
+    width: 80vw;
+    height: 9vh;
+    margin: auto;
+    color: #5fdd79;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+}
+
+.nav-bar a {
+    color: #5fdd79;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-right: 1em;
+    transition: all .2s ease;
+    border: 0.2em solid #263238;
+    border-radius: 25px;
+}
+
+.nav-bar a:hover {
+    background-color: #5fdd79;
+    border: 0.4em solid #5fdd79;
+    border-radius: 50px;
+    color: #263238;
+    margin: 1.5em;
+}
+
+.material-symbols-outlined {
+    color: #5fdd79;
+    padding-left: 1em;
+    padding-top: 0.8em;
+}
+
+.barra {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    width: 10%;
+    height: 9%;
+    transition: .2s all;
+    z-index: 1;
+    position: absolute;
+}
+
+.barra ul {
+    padding: 0;
+    text-align: center;
+}
+
+.barra li {
+    transition: .3s all;
+}
+
+.barra a {
+    text-decoration: none;
+    list-style: none;
+    transition: .3s all;
+    font-size: 0px;
+    padding: 0px;
+    color: rgba(27, 32, 36, 0.99);
+}
+
+.barra h2 {
+    text-align: center;
+    color: #5fdd79;
+    padding: 7px;
+    padding-bottom: 7px;
+
+    font-size: 0px;
+}
+
+.barra:hover {
+    width: 20vw;
+    height: 100vh;
+    background-color: rgba(27, 32, 36, 0.99);
+}
+
+.barra:hover h2 {
+    padding: 15px;
+    font-size: 35px;
+}
+
+.barra:hover a {
+    font-size: 20px;
+    color: #5fdd79;
+
+    display: block;
+    padding: 20px;
+}
+
+.barra:hover span {
+    visibility: hidden;
+}
+
+.barra:hover li {
+    border-top: 3px solid #5fdd79;
+    width: 20vw;
+}
+
+.barra:hover ul:last-of-type {
+    border-bottom: 3px solid #5fdd79;
+}
+
+.barra:hover a:hover {
+    font-size: 25px;
+    padding: 30px 0;
+    background-color: #5fdd79;
+    color: rgba(27, 32, 36, 0.99);
+}
+
+/*Body(relleno)*/
+
+.encabezado {
+    color: #5fdd79;
+    background-color: #263238;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    width: 45vw;
+    height: 2em;
+    margin: auto;
+    border-radius: 40px 40px 0 0;
+    margin-top: 3.5vh;
+    padding: 1.3vh 0;
+    font-size: 2.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagen {
+    width: 45vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    border: 0.4em solid #263238;
+}
+
+.container-ver {
+    background-color: #263238;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    width: 45vw;
+    height: 2.8em;
+    margin: auto;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.ver-mas {
+    color: #5fdd79;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    width: 5vw;
+    height: 3vh;
+    margin: auto;
+    margin-top: 0.4em;
+    padding-top: 0.1vw;
+    border-radius: 18px;
+    transition: all .3s ease;
+}
+
+.ver-mas:hover {
+    color: #263238;
+    background-color: #5fdd79;
+}
+
+/*Footer*/
+
+.footer-container {
+    background-color: #263238;
+    margin-top: 4vh;
+    padding: 1.5vh 0;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.footer-container p {
+    color: #5fdd79;
+    margin-left: 1.5vw;
+    font-size: 1.3em;
+}
+
+.footer-container .redes a {
+    color: #5fdd79;
+    text-decoration: none;
+    margin-right: 2vw;
+    font-family: 'Roboto';
+    font-size: 1em;
+    border-radius: 25px;
+    background-color: #263238;
+    transition: all .3s ease;
+}
+
+.footer-container .redes a:hover {
+    color: #263238;
+    padding: 7px;
+    background-color: #5fdd79;
+}
